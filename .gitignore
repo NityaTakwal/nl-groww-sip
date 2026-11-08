@@ -2,6 +2,7 @@
 /*
 !/.gitignore
 !/.github/
+!/.devcontainer/
 !/submission/
 !/02_discovery_engine/
 !/06_mvp/
