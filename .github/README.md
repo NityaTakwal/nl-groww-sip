@@ -14,10 +14,10 @@ For first-time investors with irregular cash flow, SIPs mostly *lapse* rather th
 | MVP: Lean-Month Planner | [`submission/NL_Groww_MVP_Lean_Month_Planner.pdf`](../submission/NL_Groww_MVP_Lean_Month_Planner.pdf) |
 
 ## Apps
-| App | Code | Run locally |
-|---|---|---|
-| Discovery engine (Streamlit dashboard) | [`02_discovery_engine/`](../02_discovery_engine) | `cd 02_discovery_engine && streamlit run app.py` |
-| Lean-Month Planner MVP | [`06_mvp/`](../06_mvp) | `cd 06_mvp && streamlit run streamlit_app.py` |
+| App | Live | Code | Run locally |
+|---|---|---|---|
+| Discovery engine (Streamlit dashboard) | [nl-groww-sip-discovery-engine.streamlit.app](https://nl-groww-sip-discovery-engine.streamlit.app) | [`02_discovery_engine/`](../02_discovery_engine) | `cd 02_discovery_engine && streamlit run app.py` |
+| Lean-Month Planner MVP | [nl-groww-mvp.streamlit.app](https://nl-groww-mvp.streamlit.app) | [`06_mvp/`](../06_mvp) | `cd 06_mvp && streamlit run streamlit_app.py` |
 
 Each app has its own `requirements.txt`. Both read the model provider and API key from environment variables (or Streamlit secrets):
 
