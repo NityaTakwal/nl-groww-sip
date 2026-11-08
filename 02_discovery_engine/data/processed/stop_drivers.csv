@@ -1,0 +1,7 @@
+stop_driver,w
+platform_issue,0.42
+involuntary_payment_failure,0.286
+voluntary_market_or_returns,0.152
+voluntary_confusion_or_doubt,0.08
+voluntary_cashflow,0.032
+not_applicable,0.03

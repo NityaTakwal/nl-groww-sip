@@ -1,0 +1,27 @@
+{
+  "records_tagged": 799,
+  "relevant": 490,
+  "first_time": 99,
+  "drop_signals": 167,
+  "by_source": {
+    "playstore": 200,
+    "reddit": 180,
+    "tradingqna": 140,
+    "youtube": 140,
+    "valuepickr": 60,
+    "appstore": 40,
+    "quora": 30,
+    "x": 9
+  },
+  "relevant_by_source": {
+    "reddit": 132,
+    "playstore": 122,
+    "youtube": 93,
+    "tradingqna": 60,
+    "quora": 29,
+    "valuepickr": 26,
+    "appstore": 22,
+    "x": 6
+  },
+  "pre_filter_in": 4340
+}

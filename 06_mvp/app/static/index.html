@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Lean-Month Planner · Groww SIP (MVP)</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+<main class="layout">
+  <aside class="side">
+    <h1>Lean-Month Planner</h1>
+    <p class="lede">A concept for Groww's SIP screen. It helps first-time investors with irregular income get through a tight month without losing their SIP by accident.</p>
+    <h2>Try a situation</h2>
+    <div id="scenarios" class="scen"></div>
+    <h2>How it works</h2>
+    <ol class="how">
+      <li><b>You describe your month</b> in your own words, in English or Hinglish.</li>
+      <li><b>AI understands</b> the situation and when your money usually arrives.</li>
+      <li><b>Rules, not AI,</b> decide the options and their exact consequences.</li>
+      <li><b>A quality gate</b> checks every reply. If a check fails, you get a neutral fallback.</li>
+    </ol>
+    <p class="fine">Prototype with illustrative amounts. No real account is connected. Not investment advice.</p>
+  </aside>
+
+  <section class="phone" aria-label="App preview">
+    <div class="notch"></div>
+    <div class="screen" id="screen">
+      <!-- home -->
+      <div id="home" class="view">
+        <div class="topbar"><span class="back">‹</span><span>My SIP</span><span></span></div>
+        <div class="card sip">
+          <div class="sip-row"><div class="fund-dot"></div><div><div class="muted">Monthly SIP</div><div class="big" id="sipAmount">₹2,000</div></div></div>
+          <div class="grid2">
+            <div><div class="muted">Next instalment</div><div id="sipDate">5th of every month</div></div>
+            <div><div class="muted">Months invested</div><div id="sipMonths">4</div></div>
+            <div><div class="muted">Invested</div><div id="sipInvested">₹8,000</div></div>
+            <div><div class="muted">Current value</div><div id="sipValue">₹7,650</div></div>
+          </div>
+          <div class="streak" id="streak"></div>
+        </div>
+        <div class="card nudge" id="nudge">
+          <div class="nudge-title" id="nudgeTitle"></div>
+          <div class="nudge-body" id="nudgeBody"></div>
+          <button class="btn primary" id="planBtn">Plan this month</button>
+        </div>
+        <div class="disclaimer">Not investment advice.</div>
+      </div>
+
+      <!-- ask -->
+      <div id="ask" class="view hidden">
+        <div class="topbar"><span class="back" data-go="home">‹</span><span>Plan this month</span><span></span></div>
+        <p class="q">What's going on with money this month?</p>
+        <p class="muted small">Write it the way you'd tell a friend, in English or Hinglish. Don't share account or PAN details.</p>
+        <div class="chips" id="chips"></div>
+        <textarea id="userText" rows="4" placeholder="e.g. Salary is coming on the 9th this month, and the portfolio is also showing red…"></textarea>
+        <button class="btn primary" id="askBtn">Show my options</button>
+        <div class="disclaimer">Not investment advice. Groww won't tell you what to buy.</div>
+      </div>
+
+      <!-- result -->
+      <div id="result" class="view hidden">
+        <div class="topbar"><span class="back" data-go="ask">‹</span><span>Your options</span><span></span></div>
+        <div id="loading" class="loading hidden"><div class="spinner"></div>Reading your situation…</div>
+        <div id="resultBody"></div>
+      </div>
+    </div>
+    <div id="toast" class="toast hidden"></div>
+  </section>
+</main>
+<script src="/static/app.js"></script>
+</body>
+</html>

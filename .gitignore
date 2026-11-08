@@ -1,0 +1,17 @@
+# Publish only the submission and the two apps
+/*
+!/.gitignore
+!/.github/
+!/submission/
+!/02_discovery_engine/
+!/06_mvp/
+!/common/
+
+.venv/
+.env
+__pycache__/
+*.pyc
+.DS_Store
+.st_component/
+.streamlit/secrets.toml
+submission/*_placeholder_backup.pdf

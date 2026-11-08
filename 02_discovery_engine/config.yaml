@@ -1,0 +1,32 @@
+# Discovery engine config.
+# LLM provider/model are set via env or ../.env (shared with the MVP):
+#   LLM_PROVIDER = auto | anthropic | openai | google_genai | ollama   (auto = first API key found, else ollama)
+#   LLM_MODEL_FAST / LLM_MODEL_SMART = optional model overrides
+
+source_mode: local          # local = data/store snapshot | live = re-pull sources first
+sources:                    # store files to include (omit a line to exclude a source)
+  - playstore
+  - appstore
+  - reddit
+  - tradingqna
+  - valuepickr
+  - youtube
+  - social
+
+tagging:
+  batch_size: 40
+  concurrency: 4
+  items_per_call: 1
+
+# Free-tier rate limits (15 req/min) make tagging all ~3.5k items slow, so tag a fixed random
+# sample per source. ~800 items gives roughly ±3.5% CI on theme shares. Remove to tag everything.
+seed: 42
+sample_per_source:
+  playstore: 200
+  appstore: 40
+  reddit: 180
+  tradingqna: 140
+  youtube: 140
+  valuepickr: 60
+  quora: 30
+  x: 10

@@ -1,0 +1,213 @@
+{
+  "overall_agreement": 0.792,
+  "items": 20,
+  "per_field": {
+    "relevant": {
+      "agree": 17,
+      "n": 20,
+      "agreement": 0.85
+    },
+    "journey_stage": {
+      "agree": 16,
+      "n": 20,
+      "agreement": 0.8
+    },
+    "primary_theme": {
+      "agree": 14,
+      "n": 20,
+      "agreement": 0.7
+    },
+    "action_taken": {
+      "agree": 12,
+      "n": 20,
+      "agreement": 0.6
+    },
+    "stop_driver": {
+      "agree": 16,
+      "n": 20,
+      "agreement": 0.8
+    },
+    "income_type": {
+      "agree": 20,
+      "n": 20,
+      "agreement": 1.0
+    }
+  },
+  "disagreements": [
+    {
+      "id": "tradingqna-458065",
+      "field": "relevant",
+      "human": "true",
+      "ai": "false",
+      "text": "navs being different doesn’t mean its a loss, difference is meaningless.\nnav is relevant only for a single fund and has no meaning when compared. 100 nav of one"
+    },
+    {
+      "id": "youtube-Ugz8pJpBGuBPlwP1EZV4AaABAg",
+      "field": "relevant",
+      "human": "false",
+      "ai": "true",
+      "text": "The sole purpose of sip is to invest when the NAV is low.. so what sense does it make to stop SIP now.. the basic fundamental of sip is itself to invest when th"
+    },
+    {
+      "id": "playstore-6b4db4cffce3",
+      "field": "relevant",
+      "human": "false",
+      "ai": "true",
+      "text": "Grt tool for trading , all over experience is good, world class investment app, compact and easy . This was the only app I could find with support for SIP and i"
+    },
+    {
+      "id": "reddit-1x4mtow",
+      "field": "journey_stage",
+      "human": "beyond_12",
+      "ai": "months_6_12",
+      "text": "Hi,\n\nInvestment purposes: retirement     \nDuration: long term 10 years     \nRisk: low, moderate\n\nI have started investing in SIPs from 2024 with Nifty 50 later "
+    },
+    {
+      "id": "reddit-1wnfxox",
+      "field": "journey_stage",
+      "human": "unclear",
+      "ai": "months_6_12",
+      "text": "Hey everyone, I need some advice regarding SIPs. I started investing in an SIP mainly for one year because I want to build a saving habit. Otherwise, I tend to "
+    },
+    {
+      "id": "appstore-6da01819ab5f",
+      "field": "journey_stage",
+      "human": "unclear",
+      "ai": "months_3_6",
+      "text": "I am using Groww from past few months and I have been frequently facing this issue of deduction of money one day prior to my SIP date. However, this time I had "
+    },
+    {
+      "id": "youtube-UgwjuU2AkexX-CE8oCR4AaABAg",
+      "field": "journey_stage",
+      "human": "beyond_12",
+      "ai": "pre_start",
+      "text": "Sir ji ye bataiye 500 ka sip kiya 3 saal tak 18000 ka aur market down ho gya to kya mera 18000 bhi doob jayega"
+    },
+    {
+      "id": "tradingqna-458065",
+      "field": "primary_theme",
+      "human": "returns_understanding",
+      "ai": "other",
+      "text": "navs being different doesn’t mean its a loss, difference is meaningless.\nnav is relevant only for a single fund and has no meaning when compared. 100 nav of one"
+    },
+    {
+      "id": "reddit-1x4mtow",
+      "field": "primary_theme",
+      "human": "advice_seeking",
+      "ai": "returns_understanding",
+      "text": "Hi,\n\nInvestment purposes: retirement     \nDuration: long term 10 years     \nRisk: low, moderate\n\nI have started investing in SIPs from 2024 with Nifty 50 later "
+    },
+    {
+      "id": "youtube-Ugz8pJpBGuBPlwP1EZV4AaABAg",
+      "field": "primary_theme",
+      "human": "other",
+      "ai": "positive_continuation",
+      "text": "The sole purpose of sip is to invest when the NAV is low.. so what sense does it make to stop SIP now.. the basic fundamental of sip is itself to invest when th"
+    },
+    {
+      "id": "playstore-6b4db4cffce3",
+      "field": "primary_theme",
+      "human": "other",
+      "ai": "start_motivation",
+      "text": "Grt tool for trading , all over experience is good, world class investment app, compact and easy . This was the only app I could find with support for SIP and i"
+    },
+    {
+      "id": "playstore-2005c6f426c3",
+      "field": "primary_theme",
+      "human": "app_trust_or_bug",
+      "ai": "sip_management_friction",
+      "text": "At first it felt good as its very easy to buy an sip without paying commission, but don't know it was a glitch but 2 duplicate sip were created and amount was d"
+    },
+    {
+      "id": "youtube-UgwjuU2AkexX-CE8oCR4AaABAg",
+      "field": "primary_theme",
+      "human": "market_volatility_anxiety",
+      "ai": "returns_understanding",
+      "text": "Sir ji ye bataiye 500 ka sip kiya 3 saal tak 18000 ka aur market down ho gya to kya mera 18000 bhi doob jayega"
+    },
+    {
+      "id": "reddit-p97xt90",
+      "field": "action_taken",
+      "human": "none_mentioned",
+      "ai": "continuing",
+      "text": "Danger? Why would you be in danger? Like the AMC police will come arrest you for breaking compounding?\n\nDon't worry. You edited your SIP amount, it cancels the "
+    },
+    {
+      "id": "reddit-oti9rrt",
+      "field": "action_taken",
+      "human": "none_mentioned",
+      "ai": "continuing",
+      "text": "Nope, when we increase the SIP, a new mandate is already created at that moment but we dont have the option to choose the mandate amount. It default to 1 lakh. "
+    },
+    {
+      "id": "reddit-oeu9qy1",
+      "field": "action_taken",
+      "human": "missed_involuntarily",
+      "ai": "considering_stop",
+      "text": "Stop all your sips and move to platforms those provide UPI SIP. IndMoney, Dhan, Groww these do. On UPI mandate no changes for this failed transaction. I think y"
+    },
+    {
+      "id": "youtube-Ugz8pJpBGuBPlwP1EZV4AaABAg",
+      "field": "action_taken",
+      "human": "none_mentioned",
+      "ai": "continuing",
+      "text": "The sole purpose of sip is to invest when the NAV is low.. so what sense does it make to stop SIP now.. the basic fundamental of sip is itself to invest when th"
+    },
+    {
+      "id": "reddit-1wnfxox",
+      "field": "action_taken",
+      "human": "started",
+      "ai": "continuing",
+      "text": "Hey everyone, I need some advice regarding SIPs. I started investing in an SIP mainly for one year because I want to build a saving habit. Otherwise, I tend to "
+    },
+    {
+      "id": "playstore-2005c6f426c3",
+      "field": "action_taken",
+      "human": "started",
+      "ai": "missed_involuntarily",
+      "text": "At first it felt good as its very easy to buy an sip without paying commission, but don't know it was a glitch but 2 duplicate sip were created and amount was d"
+    },
+    {
+      "id": "appstore-6da01819ab5f",
+      "field": "action_taken",
+      "human": "considering_stop",
+      "ai": "stopped_or_cancelled",
+      "text": "I am using Groww from past few months and I have been frequently facing this issue of deduction of money one day prior to my SIP date. However, this time I had "
+    },
+    {
+      "id": "playstore-db2298747cec",
+      "field": "action_taken",
+      "human": "none_mentioned",
+      "ai": "stopped_or_cancelled",
+      "text": "My suggestion don't use Groww👎 Groww don't update mutual fund nav in case fund falling downwords at the time market down And grow calculate the same nav at the "
+    },
+    {
+      "id": "playstore-d5facb91b58c",
+      "field": "stop_driver",
+      "human": "platform_issue",
+      "ai": "not_applicable",
+      "text": "Why is it not skipping my SIPs for this month? It directly skips to next month?! If it's going to take time to process the skipping, why don't you show it upfro"
+    },
+    {
+      "id": "playstore-2005c6f426c3",
+      "field": "stop_driver",
+      "human": "not_applicable",
+      "ai": "platform_issue",
+      "text": "At first it felt good as its very easy to buy an sip without paying commission, but don't know it was a glitch but 2 duplicate sip were created and amount was d"
+    },
+    {
+      "id": "appstore-6da01819ab5f",
+      "field": "stop_driver",
+      "human": "platform_issue",
+      "ai": "involuntary_payment_failure",
+      "text": "I am using Groww from past few months and I have been frequently facing this issue of deduction of money one day prior to my SIP date. However, this time I had "
+    },
+    {
+      "id": "playstore-db2298747cec",
+      "field": "stop_driver",
+      "human": "not_applicable",
+      "ai": "platform_issue",
+      "text": "My suggestion don't use Groww👎 Groww don't update mutual fund nav in case fund falling downwords at the time market down And grow calculate the same nav at the "
+    }
+  ]
+}

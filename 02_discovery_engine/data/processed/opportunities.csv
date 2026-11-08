@@ -1,0 +1,12 @@
+theme,metric_node,mentions,reach_%,threat_%,first_time_%,drop_signal_%,addressable,score,top_unmet_need
+payment_mandate_failure,B. Involuntary lapse — instalment failure,65,16.9,93.7,5.4,83.8,1.0,100.0,['Clear visibility on whether the new bank autopay mandate is active and working.']
+app_trust_or_bug,F. Platform trust & reliability,107,37.5,80.2,3.8,69.0,0.5,97.4,['Transparent demat holding policies and responsive support without sales pitches.']
+sip_management_friction,E. Flexibility — pause/skip/modify instead of cancel,102,23.6,42.5,6.5,34.7,1.0,91.4,['Clear visibility on whether the new bank autopay mandate is active and working.']
+advice_seeking,C. Voluntary stop — expectation vs early outcome,177,22.6,35.4,31.8,28.5,0.5,58.4,['Guidance on whether to continue SIPs during market downturns.']
+return_expectation_gap,C. Voluntary stop — expectation vs early outcome,56,9.1,86.0,10.0,66.0,1.0,55.0,['Instant redemption processing to avoid market drops before order completion']
+returns_understanding,C. Voluntary stop — expectation vs early outcome,45,8.1,31.0,14.6,15.0,1.0,31.2,['Need separate XIRR/Absolute return tracking for individual lumpsum transaction lots.']
+goal_clarity,"A. Activation quality (right SIP, right amount, clear goal)",56,8.0,7.9,19.6,3.7,1.0,24.0,['Need separate watchlists or folders for different mutual fund investment goals.']
+start_motivation,"A. Activation quality (right SIP, right amount, clear goal)",44,8.5,6.5,71.0,6.5,0.5,21.6,['Need a feature to compare two or three mutual funds easily.']
+market_volatility_anxiety,C. Voluntary stop — expectation vs early outcome,47,6.6,56.8,14.9,45.1,0.5,16.9,['Need reassurance to stay invested during market downturns.']
+cashflow_income_stress,D. Voluntary stop — affordability / cashflow,9,1.3,89.0,8.4,89.0,0.5,4.0,['Allow me to reliably skip my SIP installment during financial emergencies.']
+disengagement_habit,G. Engagement & salience,2,0.3,100.0,0.0,100.0,0.5,0.8,['Help staying disciplined and preventing SIPs from being skipped or discontinued midway.']
