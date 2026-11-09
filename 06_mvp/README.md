@@ -2,13 +2,13 @@
 
 A feature concept for Groww's SIP screen. A first-time investor with irregular income gets **one calm, honest planning moment** when a lean month threatens their SIP, instead of a silent failure, a bank bounce charge and a hidden 3-strike auto-cancel.
 
-## Run it
+## Try it
 ```bash
 cd 06_mvp
 ../.venv/bin/uvicorn app.main:app --port 8000      # FastAPI version
 ../.venv/bin/streamlit run streamlit_app.py        # same UI on Streamlit (used for hosting)
 ```
-Open http://localhost:8000, choose a situation on the left, tap **Plan this month**, and describe your month in your own words.
+Live app (no install): **https://nl-groww-mvp.streamlit.app**. Choose a situation on the left, tap **Plan this month**, and describe your month in your own words. Running locally, the FastAPI version is at http://localhost:8000.
 
 ## Where it sits in the journey
 It has three entry points: the at-risk moments from the research.

@@ -25,7 +25,10 @@ def main() -> None:
            f"({len(df)} items, {int(df['relevant'].sum())} relevant).\n\n"
            "Each answer cites corpus item ids; look them up in the dashboard's *Evidence explorer* or in "
            "`data/store/*.jsonl`. The engine declines when it finds fewer than 5 evidence items. A grounding "
-           "check lists any cited id that is not in the evidence.\n"]
+           "check lists any cited id that is not in the evidence.\n\n"
+           "These answers are qualitative: each reads the 40 most relevant tagged posts, so \"well supported\" "
+           "means within those posts. How common each reason is comes from the tagged counts instead "
+           "(deck slide 3: failed payments 29% of stop signals, markets 15%).\n"]
     for q in ask.PRESETS:
         r = ask.answer(df, q)
         out.append(f"## {q}\n\n{r['answer']}\n\n*Evidence items: {len(r['evidence'])} · cited: {r.get('cited', '-')} · "
